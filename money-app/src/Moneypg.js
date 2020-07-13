@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useContext} from 'react';
-import MoneyAmount from './moneyamount';
 import moneyservice from './moneyservice';
 import RegisterAmount from './Register2';
 import SubmitForm from './SubmitForm';
