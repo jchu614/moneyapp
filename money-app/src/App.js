@@ -10,12 +10,6 @@ import Message from './Message';
 import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
 import './App.css';
 
-// const api = {
-// 	key: "d82564eb0dc90d8da6c4",
-// 	base: "https://free.currconv.com/api/v7/convert?q=",
-// 	base2: "&compact=ultra&apiKey="
-// }
-
 function App() {
 	return (
 		<Router>
@@ -27,9 +21,7 @@ function App() {
 			<Route path="/register2" component={RegisterAmount}/>
 			<Route path="/settings" component={Settings} />
 			<Route exact path="/" component={Moneypg}/>
-			
 		</Router>
-
 	)
 }
 
